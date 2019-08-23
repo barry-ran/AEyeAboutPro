@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e6f0a9d1-1dde-4af2-a19a-ff51a1421f42}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{938ccaa5-3e92-412a-a6e4-b8444ef5f71d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{e856721d-30fe-4923-a657-cf0a74c064ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Network">
+      <UniqueIdentifier>{bc8e8efc-f7b7-4bfc-b123-5191b0688516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{719dcade-502e-4304-b672-4f524ae85d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business">
+      <UniqueIdentifier>{e3fb6643-bb97-4e02-8ec1-dc035090cfc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\ReadIdCard">
+      <UniqueIdentifier>{8ef03e58-5730-4fa0-81ba-8db8546cad07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\ReadSiCard">
+      <UniqueIdentifier>{9c1288af-8e13-43d6-916f-70d660f43d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\AEyeFaceColl">
+      <UniqueIdentifier>{3dd391d5-2ed2-46b0-ae36-bc0cf7e6b498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{c41c7ffc-c821-49f9-83c2-1b60099c3497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\log">
+      <UniqueIdentifier>{efa2768e-80c0-4675-acda-cd11de4bda77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIOViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AIOViewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AIOViewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IHttpReqRes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IHttpReqRes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\IHttpReqRes.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpClient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpClient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpClient.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpSignal.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ThreadManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ThreadManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ThreadManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpAgent.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpAgent.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\HttpAgent.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpOperatorLogin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpOperatorLogin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpOperatorLogin.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\commonFunc.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SuperButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SuperButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="IdentifyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IdentifyDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IdentifyDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoadingWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LoadingWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressIndicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProgressIndicator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProgressIndicator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MaskWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MaskWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthorizateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AuthorizateDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AuthorizateDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemSettingsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SystemSettingsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SystemSettingsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpGetBaseInfo.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetBaseInfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetBaseInfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IdCardReader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IdCardReader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\IdCardReader.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SiCardReader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SiCardReader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\SiCardReader.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ReadCardThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ReadCardThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\ReadCardThread.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpGetIdCardPic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpGetIdCardPic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpGetIdCardPic.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PixmapLoader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Base64.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpIfCanIdentify.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpIfCanIdentify.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpIfCanIdentify.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpBackendRecognize.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpBackendRecognize.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpBackendRecognize.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraReader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraReader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\CameraReader.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpCompleteIdentify.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpCompleteIdentify.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpCompleteIdentify.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HttpHeartbeat.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HttpHeartbeat.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Network\HttpHeartbeat.cpp">
+      <Filter>Helper\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_AIOViewer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ArrowWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ArrowWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DataPathManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppEnvChecker.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SystemChecker.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppInitializer.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppInitializer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppInitializer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="App\UserConfig.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\log\GlogManager.cpp">
+      <Filter>Helper\log</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppCleaner.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MessageWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MessageWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppEventListener.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppEventListener.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppEventListener.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GlobalSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GlobalSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\GlobalSignal.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="AIOViewer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AIOViewer.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\IHttpReqRes.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpClient.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpSignal.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Utils\ThreadManager.h">
+      <Filter>Utils</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\HttpAgent.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpOperatorLogin.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SuperButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SuperButton.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IdentifyDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="IdentifyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoadingWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ProgressIndicator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MaskWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AuthorizateDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AuthorizateDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SystemSettingsDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SystemSettingsDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpGetBaseInfo.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\IdCardReader.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\SiCardReader.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\ReadCardThread.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpGetIdCardPic.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpIfCanIdentify.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpBackendRecognize.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\CameraReader.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpCompleteIdentify.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Network\HttpHeartbeat.h">
+      <Filter>Helper\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AIOViewer.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ArrowWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="App\AppInitializer.h">
+      <Filter>App</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MessageWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="App\AppEventListener.h">
+      <Filter>App</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\GlobalSignal.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_AIOViewer.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Network\HttpInterface.h">
+      <Filter>Helper\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\HttpStructData.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\EnumData.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\commonFunc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SuperButton.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_IdentifyDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AuthorizateDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SystemSettingsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\ReadCard\include\HDstdapi.h">
+      <Filter>Helper\ReadIdCard</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\ReadSiCard\include\SiCard_HD.h">
+      <Filter>Helper\ReadSiCard</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PixmapLoader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Base64.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\AEyeFaceColl\include\AEyeFaceColl.h">
+      <Filter>Helper\AEyeFaceColl</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\dump.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DataPathManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppEnvChecker.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SystemChecker.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\UserConfig.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\log\GlogManager.h">
+      <Filter>Helper\log</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppCleaner.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CommonConstData.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\face.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\finger.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\vein.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\return.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\clock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\collect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\settings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\min.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\reboot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\shutdown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\idCard.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\securityCard.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\offline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\online.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\btn_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\lbl_msg_error.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\lbl_msg_info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\lbl_msg_question.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\lbl_msg_warning.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\desktop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="desktop.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ATMView.rc" />
+  </ItemGroup>
+</Project>

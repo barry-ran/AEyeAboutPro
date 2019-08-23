@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/AIOViewer">
+        <file>Resources/user_icon.png</file>
+        <file>Resources/icon.png</file>
+        <file>Resources/face.png</file>
+        <file>Resources/finger.png</file>
+        <file>Resources/vein.png</file>
+        <file>Resources/return.png</file>
+        <file>Resources/clock.png</file>
+        <file>Resources/collect.png</file>
+        <file>Resources/settings.png</file>
+        <file>Resources/exit.png</file>
+        <file>Resources/min.png</file>
+        <file>Resources/reboot.png</file>
+        <file>Resources/shutdown.png</file>
+        <file>Resources/idCard.png</file>
+        <file>Resources/securityCard.png</file>
+        <file>Resources/offline.png</file>
+        <file>Resources/online.png</file>
+        <file>Resources/btn_close.png</file>
+        <file>Resources/lbl_msg_error.png</file>
+        <file>Resources/lbl_msg_info.png</file>
+        <file>Resources/lbl_msg_question.png</file>
+        <file>Resources/lbl_msg_warning.png</file>
+        <file>Resources/desktop.png</file>
+    </qresource>
+</RCC>

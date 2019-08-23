@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATMView", "ATMView\ATMView.vcxproj", "{C69D0B1A-089B-4D84-A812-AD860751DE30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATMLauncher", "ATMLauncher\ATMLauncher.vcxproj", "{104EC330-F4D2-4FDC-BCB2-F026354BC2EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69D0B1A-089B-4D84-A812-AD860751DE30}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C69D0B1A-089B-4D84-A812-AD860751DE30}.Debug|Win32.Build.0 = Debug|Win32
+		{C69D0B1A-089B-4D84-A812-AD860751DE30}.Release|Win32.ActiveCfg = Release|Win32
+		{C69D0B1A-089B-4D84-A812-AD860751DE30}.Release|Win32.Build.0 = Release|Win32
+		{104EC330-F4D2-4FDC-BCB2-F026354BC2EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{104EC330-F4D2-4FDC-BCB2-F026354BC2EA}.Debug|Win32.Build.0 = Debug|Win32
+		{104EC330-F4D2-4FDC-BCB2-F026354BC2EA}.Release|Win32.ActiveCfg = Release|Win32
+		{104EC330-F4D2-4FDC-BCB2-F026354BC2EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
